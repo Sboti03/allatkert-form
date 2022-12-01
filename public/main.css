@@ -1,0 +1,27 @@
+img {
+    max-width: 300px;
+    border: solid 1px black;
+}
+
+.leiras {
+    background-color: antiquewhite;
+    border: solid 2px grey;
+    padding: 10px;
+}
+
+.content {
+    display: grid;
+    justify-content: center;
+}
+
+.form {
+    background-color: antiquewhite;
+    min-width: 40vw;
+    border: solid 2px gray;
+    display: grid;
+    justify-content: center;
+    
+    
+
+}
+

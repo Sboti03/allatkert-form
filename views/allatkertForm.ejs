@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="main.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Állatkert</title>
+</head>
+<body>
+    
+
+    <div class="content">
+        <form class="form" method="post">
+            <p>
+                <label>
+                    Állat neve: <input type="text" name="allatNeve" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Állat életkora: <input type="number" name="allatEletkor" min="0" required>
+                </label>
+            </p>
+            <p>
+                <label>
+                    Állat fajtája: <select name="allatFajta" id="" required>
+                        <option value="macska">Macska</option>
+                        <option value="kutya">Kutya</option>
+                        <option value="majom">Majom</option>
+                    </select>
+                </label>
+            </p>
+            <p><input type="submit" value="Küldés"></p>
+        </form>
+    </div>
+    
+
+</body>
+</html>
